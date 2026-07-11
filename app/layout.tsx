@@ -27,11 +27,6 @@ export default function RootLayout({
       lang="en"
       className={`${geistSans.variable} ${geistMono.variable} h-full antialiased`}
     >
-      <div>
-        <nav className="bg-red-900 py-4">
-          <span className="px-4 text-white">Navbar</span>
-        </nav>
-      </div>
       <body className="min-h-full flex flex-col">{children}</body>
     </html>
   );
