@@ -13,7 +13,7 @@ const Home = async () => {
 
   return (
     <div>
-      <h1>Server Comp</h1>
+      <h1>Server Component</h1>
       <ul>
         {
           data?.map(item => (
