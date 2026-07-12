@@ -63,7 +63,7 @@ export const Navbar = () => {
             </button>
             {
                 open && (
-                    <div className="md:hidden absolute inset-x-0 bg-white rounded-md shadow-input top-12 max-w-[100%] mx-auto">
+                    <div className="transition-all duration-300 md:hidden absolute inset-x-0 bg-white rounded-md shadow-input top-12 max-w-[100%] mx-auto">
                         <div className="flex flex-col items-start gap-4 text-sm p-4">
                             {navItems.map((item) => (
                                 <Link
