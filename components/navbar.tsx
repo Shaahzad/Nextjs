@@ -36,6 +36,7 @@ export const navItems = [
         href: "/contact",
     },
 ];
+
 export const Navbar = () => {
     const [open, setOpen] = useState(false)
     return (
