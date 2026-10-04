@@ -1,17 +1,19 @@
 import { Navbar } from "@/components/navbar";
 import Ronaldo from "../components/icons/images.jpg"
 import Image from "next/image";
+import { Hero } from "@/components/Hero";
+import { Feature } from "@/components/Feature";
 
 export default async function Page() {
   return (
     <div className="relative h-screen">
-      <Image
+      {/* <Image
         src={Ronaldo}
         alt="Background"
         fill
         className="object-cover object-top"
-      />
-      <div className="absolute inset-0 bg-black/40" />
+      /> */}
+      {/* <div className="absolute inset-0 bg-black/40" />
       <div className="relative z-50 h-full">
         <Navbar />
         <div className="flex h-full items-center justify-center px-10">
@@ -24,7 +26,9 @@ export default async function Page() {
             </p>
           </div>
         </div>
-      </div>
+      </div> */}
+      <Hero/>
+      <Feature/>
     </div>
   )
 }
